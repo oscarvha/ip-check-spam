@@ -8,6 +8,14 @@ It currently uses **Groq AI (GPT models)** to analyze IP metadata and return a s
 
 ---
 
+## Installation
+
+Install the package via Composer:
+
+```bash
+composer require osd/ip-check-spam
+```
+
 ## Features
 
 - AI-based IP spam risk analysis
