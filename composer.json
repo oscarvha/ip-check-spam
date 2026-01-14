@@ -1,0 +1,22 @@
+{
+    "name": "osd/ip-check-spam",
+    "description": "Qualify if an IP is listed as spam using AI",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "required": {
+        "php": "^8.1",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Osd\\IpCheckSpam\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oscar Sanchez"
+        }
+    ],
+    "require": {}
+}
